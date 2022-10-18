@@ -12,7 +12,7 @@ int main(void)
 
 	n1 = 1;
 	n2 = 2;
-	boolean = noolean2 = 1;
+	boolean = boolean2 = 1;
 	printf("%ld, %ld", n1, n2);
 	for (c = 0; c < 9; c++)
 	{
@@ -45,6 +45,6 @@ int main(void)
 		if (((n1 + n2) < 0) && boolean == 1)
 			boolean = 0;
 	}
-	print("\n");
+	printf("\n");
 	return (0);
 }
