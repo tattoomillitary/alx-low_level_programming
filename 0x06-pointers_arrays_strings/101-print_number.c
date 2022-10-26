@@ -22,9 +22,9 @@ void print_number(int n)
 	b = a;
 	count = 1;
 
-	while (d > 9)
+	while (b > 9)
 	{
-		d /= 10;
+		b /= 10;
 		count *= 10;
 	}
 
