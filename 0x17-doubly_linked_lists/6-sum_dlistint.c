@@ -11,7 +11,7 @@ int sum_dlistint(dlistint_t *head)
 {
 	int sum;
 
-	sum = o;
+	sum = 0;
 
 	if (head != NULL)
 	{
